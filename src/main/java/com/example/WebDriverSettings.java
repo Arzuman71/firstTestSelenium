@@ -5,7 +5,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class WebDriverSettings {
-    public ChromeDriver driver;
+    protected ChromeDriver driver;
 
     @BeforeEach
     public void setUp() {
